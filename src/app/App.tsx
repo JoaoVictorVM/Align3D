@@ -1,7 +1,11 @@
+import GameCanvas from "../components/scene/GameCanvas";
+import HUD from "../components/ui/HUD";
+
 export default function App() {
   return (
-    <div className="h-screen flex items-center justify-center bg-black">
-      <h1 className="text-4xl text-white font-bold">Align3D</h1>
+    <div className="w-full h-screen bg-[#1F1F1F] relative">
+      <GameCanvas />
+      <HUD />
     </div>
   );
 }
